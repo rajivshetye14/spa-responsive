@@ -1,0 +1,129 @@
+html {
+	height:100%;
+}
+body{
+	height:100%;
+	color:#6c6f73;
+	padding-top:50px;
+}
+.button_style {
+	border:none;
+	padding:0;
+	background-color:transparent;	
+}
+.button_style:hover {
+	background-color:transparent;
+
+}
+
+#img_logo{
+	background:none;
+	margin-top:-2px;
+	margin-left:2px;
+}
+
+
+h1,h2,h3,h4,h5{
+	color:#333;
+}
+
+h6{
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:12px;
+	letter-spacing:1px;
+}
+
+.sections {
+	height:100%;
+	width:100%;
+	display:flex;
+}
+@media (max-width: 767px) {
+	.sections  {
+		display:block;
+		height: auto;
+	}
+}
+#section_one{
+	background:url('man_yoga_sea_sky_79841_300x168.jpg') center center no-repeat;
+	background-size:cover;
+	color:white;
+	align-items:center;
+	height:100%;
+	width:100%;
+	display:flex;
+}
+
+#one_background_image{
+	font-size:22px;
+	font-weight:200;
+	max-width:400px;
+	margin:0 auto;
+	text-align:center;
+	
+}
+
+#one_background_image h1{
+	color:white;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+#section_two_content{
+	padding:100px 1px;
+	overflow:hidden;
+
+}
+@media (max-width: 767px) { 
+	#section_two_content {
+		padding:10px 1px;
+	}
+}
+#section_three_content{
+	padding:100px 1px;
+	overflow:hidden;
+}
+@media (max-width: 767px) { 
+	#section_three_content {
+		padding:10px 1px;
+	}
+}
+.btn_like{
+	margin:20px 0 10px;
+}
+
+#section_three{
+	background-color:#262F36;
+	color:white;
+	margin-top:40px;
+}
+
+#section_three .section_caption h4,
+#section_three .section_caption h2{
+	color:white;
+} 
+
+#section_two{
+	margin-top:100px;
+}
+@media (max-width: 767px) { 
+	#section_two {
+		margin:10px 1px;
+	}
+}
+
+#footer{
+	background-color:#264D36;
+	color:white;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.footer_text{
+	padding-top:35px;
+}
+#footer a {
+	color:#DDDDDD;
+}
+
